@@ -46,7 +46,7 @@ app.controller("myCtrl", function($scope, $window, $timeout) {
     <h3>My Shopping List</h3>
   </header>
   <ul class="w3-ul">
-    <li ng-repeat="x in products" class="w3-padding-hor-16">{{x}}<span ng-click="removeItem($index)" confirm="Are you sure to delete?" style="cursor:pointer;" class="w3-right w3-margin-right">×</span></li>
+    <li ng-repeat="x in products" class="w3-padding-hor-16">{{x}}<span ng-click="removeItem($index)" confirm="Are you sure to delete?" style="cursor:pointer;" class="w3-right w3-margin-right">Padam</span></li>
   </ul>
   <div class="w3-container w3-light-grey w3-padding-hor-16">
     <div class="w3-row w3-margin-top">
